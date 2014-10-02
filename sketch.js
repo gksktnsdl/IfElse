@@ -5,7 +5,7 @@ function setup() {
   background(128,0,64);
   stroke(255);
   noFill();
-  ellips(100,100,50,50);
+  ellipse(100,100,50,50);
 }
 
 
