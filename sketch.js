@@ -8,7 +8,7 @@ function setup()
   function draw()
 {
   background(174,138,184);
-  fill(255)
+  fill(255,50);
  if (mouseX < 100) {
   rect(50, 100, 100,100);} else if (mouseX < 200){
   rect(150, 200,200,200);} else if (mouseX < 300){
