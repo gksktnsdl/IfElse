@@ -6,6 +6,11 @@ function setup() {
   stroke(255);
   noFill();
   ellipse(100,100,50,50);
+  
+ 
+  if(mouseX <300)
+  else if(mouseX <600)
+
 }
 
 
