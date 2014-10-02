@@ -8,7 +8,7 @@ function setup() {
   ellipse(100,100,mouseX,mouseY);
   
 
- // draw function
+  function draw(){
 if (mouseX < 300) {
   ellipse(200, 200, 100, 100);
 }
