@@ -1,13 +1,14 @@
 function setup()
  {
   createCanvas(800, 600);
-  noFill();
+  
   stroke(255);
 }
 
   function draw()
 {
   background(174,138,184);
+  fill(255)
  if (mouseX < 100) {
   rect(50, 100, 100,100);} else if (mouseX < 200){
   rect(150, 200,200,200);} else if (mouseX < 300){
