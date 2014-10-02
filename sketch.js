@@ -7,9 +7,11 @@ function setup() {
   noFill();
   ellipse(100,100,50,50);
   
- 
-  if(mouseX <300)
-  else if(mouseX <600)
+
+ // draw function
+if (mouseX < 300) {
+  ellipse(200, 200, 100, 100);
+}
 
 }
 
